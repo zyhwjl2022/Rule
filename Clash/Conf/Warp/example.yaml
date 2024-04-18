@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-18 15:04:45
+# 创建时间：2024-04-18 15:25:34
 # 使用模版：V2RaySE 默认模版
-# 节点数量：1
+# 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,46 +86,109 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"US-CF-WARP","type":"wireguard","server":"162.159.195.178","port":4233,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-1","type":"wireguard","server":"162.159.195.178","port":4233,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-2","type":"wireguard","server":"188.114.98.26","port":945,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-3","type":"wireguard","server":"162.159.195.90","port":934,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-4","type":"wireguard","server":"188.114.98.75","port":1010,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-5","type":"wireguard","server":"188.114.98.203","port":939,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-6","type":"wireguard","server":"188.114.98.118","port":1180,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-7","type":"wireguard","server":"162.159.195.44","port":968,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-8","type":"wireguard","server":"188.114.97.175","port":1701,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-9","type":"wireguard","server":"188.114.98.24","port":945,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
+  - {"name":"US-CF-WARP-10","type":"wireguard","server":"188.114.98.87","port":4500,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:80c2:3dfd:bbd1:ff84:14d1","private-key":"gC5WvZesL6ccwhcwDz6gLX0/+MWR3UGaHZZcE7dgXXc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"mtu":1280,"remote-dns-resolve":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,7 +211,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US-CF-WARP
+      - US-CF-WARP-1
+      - US-CF-WARP-2
+      - US-CF-WARP-3
+      - US-CF-WARP-4
+      - US-CF-WARP-5
+      - US-CF-WARP-6
+      - US-CF-WARP-7
+      - US-CF-WARP-8
+      - US-CF-WARP-9
+      - US-CF-WARP-10
 
 rules:
 # 本地/局域网地址
