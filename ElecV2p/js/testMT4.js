@@ -5,7 +5,7 @@ let body = $response.body
 console.log("============原始数据===========")
 console.log(body)
 
-if (body.includes("30003")) {
+if (body.includes("30002")) {
   //场次不可定
   var obj = JSON.parse(body);
   delete obj.data.errorCode
