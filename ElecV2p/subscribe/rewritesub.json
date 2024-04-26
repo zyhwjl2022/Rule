@@ -3,7 +3,7 @@
   "type": "rewrite",
   "note": "该订阅目前仅适用于 elecV2P by ZYHWJL",
   "author": "ZYHWJL",
-  "resource": "https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/subscribe/rewritesub.json",
+  "resource": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/subscribe/rewritesub.json",
   "mitmhost": [
     "itrip.meituan.com"
   ],
@@ -17,31 +17,31 @@
     {
       "match": "https:\/\/itrip.meituan.com\/meilv\/trade\/ticket\/api\/price_stock\/query.*",
       "stage": "res",
-      "target": "https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT1.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT1.js",
       "enable": true
     },
     {
       "match": "https:\/\/itrip.meituan.com\/meilv\/trade\/ticket\/deal\/book_extend\/detail\/get.*",
       "stage": "res",
-      "target": "https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT2.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT2.js",
       "enable": true
     },
     {
       "match": "https:\/\/itrip.meituan.com\/meilv\/trade\/ticket\/pre_order\/level\/get.*",
       "stage": "res",
-      "target": "https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT3.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT3.js",
       "enable": true
     },
     {
       "match": "https:\/\/itrip.meituan.com\/common\/api\/v2\/applet\/trip\/poi\/detail\/shelf.*",
       "stage": "res",
-      "target": "https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT0.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT0.js",
       "enable": true
     },
     {
       "match": "https:\/\/itrip.meituan.com\/meilv\/trade\/ticket\/user\/weChat\/order\/commit\/.*",
       "stage": "res",
-      "target": "https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT4.js",
+      "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zyhwjl2022/Rule/main/ElecV2p/js/testMT4.js",
       "enable": true
     }
   ],
@@ -54,7 +54,7 @@
         "time": "30 0 0 * * *",
         "job": {
           "type": "runjs",
-          "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/test.js"
+          "target": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/test.js"
         }
       }
     ]
